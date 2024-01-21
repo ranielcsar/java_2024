@@ -15,8 +15,8 @@ public class GetByIndexTest {
     studentList.add(joao);
     studentList.add(jose);
 
-    Student student1 = studentList.get(0);
-    Student student2 = studentList.get(1);
+    Student student1 = (Student) studentList.get(0);
+    Student student2 = (Student) studentList.get(1);
 
     System.out.println("Pegando infos de um estudante específico: ");
     System.out.println(student1);
